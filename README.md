@@ -8,6 +8,7 @@ These connections are undirected and unweighted
 ## Functions
 1. compute_hops(df, start_bus, end_bus) – finds the minimum number of hops between two buses in the network
 2. buses_within_hops(df, start_bus, max_hops) – lists all buses within a given number of hops from a starting bus
+
 Both functions rely on the Breadth-First Search (BFS) algorithm because:
 * It guarantees the shortest path in unweighted graphs
 * It systematically explores nodes level by level
